@@ -11,6 +11,10 @@
 <img width="746" height="421" alt="image" src="https://github.com/user-attachments/assets/391f8344-ef20-4d49-b006-048d829088ee" />
 
 
+<img width="790" height="512" alt="image" src="https://github.com/user-attachments/assets/20376aa0-9823-45e6-9db2-60336485756f" />
+
+
+
 ## Core Principles of Prompt Engineering
 
 ### 1. Be Specific
