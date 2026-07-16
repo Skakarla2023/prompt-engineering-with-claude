@@ -25,3 +25,7 @@ a1eef4366983" />
 
 
 <img width="999" height="385" alt="image" src="https://github.com/user-attachments/assets/2f8d9e8a-0ea0-405c-a232-7c3ac2476c63" />
+
+
+
+- Usually the newer AI models automatically chooses Chain of thought prompting and self consistency, over tree of thought prompting, and it chooses Tot only when it thinks that Tot works better for that problem even than Cot(i.e., the model has been trained with Tot and that it works well with solving such problems).
