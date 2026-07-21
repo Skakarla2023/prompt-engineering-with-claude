@@ -30,3 +30,35 @@
 ```
 Process shared context once → Share the memory → Generate all outputs in parallel.
 ```
+
+
+
+
+**Here is how it works under the hood using a serving engine like vLLM:**
+
+```python
+from vllm import LLM, SamplingParams
+
+# 1. Initialize the low-level model engine once
+llm = LLM(model="meta-llama/Meta-Llama-3-8B-Instruct")
+
+# 2. Define the shared parameters
+question = "What is photosynthesis?"
+skeleton = "1. Light absorption, 2. Water splitting, 3. Carbon fixation"
+
+# 3. Create a single batch array containing all prompts
+prompts = [
+    f"Question: {question}\nSkeleton: {skeleton}\nExpand point 1 only.",
+    f"Question: {question}\nSkeleton: {skeleton}\nExpand point 2 only.",
+    f"Question: {question}\nSkeleton: {skeleton}\nExpand point 3 only.",
+]
+
+sampling_params = SamplingParams(temperature=0.7, max_tokens=150)
+
+# 4. The low-level engine runs them simultaneously in ONE GPU pass
+outputs = llm.generate(prompts, sampling_params)
+
+# Print the batched results
+for output in outputs:
+    print(output.outputs[0].text)
+```
