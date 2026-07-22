@@ -39,8 +39,20 @@ That sticky note = the **soft prompt** in prompt tuning.
 those vectors are learned through training, we can't understand them, they just work.
 
 
+
+
 - When Should You Use Prompt Tuning?
   - ✅ You need consistent tone/format across thousands of outputs
   - ✅ You have labeled data for your specific task
   - ✅ You can't afford to fine-tune a full model
   - ✅ You're deploying one model for multiple clients (each gets their own soft prompt)
+
+
+
+
+
+
+
+
+
+<img width="959" height="483" alt="image" src="https://github.com/user-attachments/assets/4d5b3c4d-353e-4311-8d68-1775bcbc7797" />
