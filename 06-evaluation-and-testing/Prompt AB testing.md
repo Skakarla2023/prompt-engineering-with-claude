@@ -21,3 +21,10 @@ In A/B testing, two different prompts are divided between two equal groups of us
 - This is done by trials in controlled statistically sound way.
 - Provides statistical evidence of which prompt is truly better for your application.
 - Uses some metrics to test which prompt closely serves the desired purpose.
+
+
+
+
+<img width="959" height="488" alt="image" src="https://github.com/user-attachments/assets/891d8573-5925-4115-b2bb-70385130c4aa" />
+
+<img width="664" height="260" alt="image" src="https://github.com/user-attachments/assets/2d550a6f-1150-4ed0-b18f-14b09e077d2f" />
