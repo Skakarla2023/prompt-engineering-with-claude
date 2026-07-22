@@ -1,5 +1,9 @@
 ## Prompt Evaluation
 
+
+<img width="959" height="383" alt="image" src="https://github.com/user-attachments/assets/9c9ce8a3-bf5a-4059-bde5-f3910a12d1d6" />
+
+
 - It is the process of judging how well the given prompt produces the desired output.
 - Main methods for evaluating prompts are:
   1. Human evaluation
@@ -51,3 +55,8 @@
   - requires reference outputs
   - focus on only surface level similarity.
   - might not catch nuances(BLEU, ROUGE)
+ 
+
+
+<img width="959" height="485" alt="image" src="https://github.com/user-attachments/assets/ac4f29e1-4ced-4026-bd9f-2cbfd86b067a" />
+
