@@ -48,11 +48,24 @@ those vectors are learned through training, we can't understand them, they just 
   - ✅ You're deploying one model for multiple clients (each gets their own soft prompt)
 
 
-
-
-
-
-
-
-
 <img width="959" height="483" alt="image" src="https://github.com/user-attachments/assets/4d5b3c4d-353e-4311-8d68-1775bcbc7797" />
+
+
+<img width="959" height="484" alt="image" src="https://github.com/user-attachments/assets/34ddaefa-e846-42a4-bf33-87f450617ae5" />
+
+
+<img width="959" height="431" alt="image" src="https://github.com/user-attachments/assets/a86e0e94-7878-4cfb-8905-332985ede234" />
+
+
+<img width="959" height="425" alt="image" src="https://github.com/user-attachments/assets/28feb0ce-3b84-4540-8c26-63fcee2aa2fd" />
+
+
+
+
+
+### How to implement Prompt tuning
+
+<img width="953" height="463" alt="image" src="https://github.com/user-attachments/assets/7602db49-179e-430f-9e4a-33b6fdf9cd56" />
+
+
+<img width="959" height="377" alt="image" src="https://github.com/user-attachments/assets/899cbf11-8c20-4fc3-a0f4-4797eb90cc45" />
