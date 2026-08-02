@@ -37,7 +37,7 @@
 - AI training mainly relied on CPUs, which process tasks one after another and are too slow for today's large models.
 
 #### Now
-- GPUs and TPUs perform thousands of calculations in parallel, making AI training much faster.
+- GPUs(Graphics Processing Unit) and TPUs(Tensor Processing Unit) perform thousands of calculations in parallel, making AI training much faster.
 - Multiple GPUs/TPUs can be connected into computing clusters, allowing models to be trained in days instead of years.
 
 <img width="959" height="535" alt="image" src="https://github.com/user-attachments/assets/1a86a938-8b43-4704-ae06-92b7b985befd" />
