@@ -1,54 +1,64 @@
-# Prompt Engineering — Fundamentals & Techniques
-
-Personal notes and experiments from the **Prompt Engineering** course on Udemy.  
+# Prompt Engineering with Claude
+Personal notes and experiments from Anthropic's applied AI course series and the **Prompt Engineering** course on Udemy.
 Built as a reference I'd actually go back to — not just a course archive.
 
-**Course:** Prompt Engineering — Udemy &nbsp;|&nbsp; **Completed:** May 2026 &nbsp;|&nbsp; **Status:** ✅ Done
+**Courses covered:** Prompt Engineering (Udemy) · AI Fluency Frameworks & Foundations · Building with the Claude API · Introduction to Model Context Protocol
+**Status:** 🟡 In Progress
 
 ---
 
 ## Why This Matters for a Backend Engineer
 
-As an AI Backend Engineer, you won't just call APIs — you'll write system prompts, design prompt pipelines, and debug when LLM output breaks your application logic.
+As an AI Backend Engineer, you won't just call APIs — you'll write system prompts, design prompt pipelines, wire up tool calls, and debug when LLM output breaks your application logic.
 
-Strong prompt engineering = fewer bugs, better outputs, lower token costs.
+This repo tracks that progression end to end: how to prompt well → how to think about AI collaboration → how to build against the Claude API → how to expose tools and context to models via MCP.
 
 ---
 
 ## Structure
 
 ```
-prompt-engineering-fundamentals/
-├── 01-foundations/
-│   ├── Prompting Essentials.md          # Core concepts every prompt engineer needs
-│   └── Best Practices and Templates.md  # Reusable patterns for real-world use
+prompt-engineering-with-claude/
+├── 01-prompt-engineering-udemy/
+│ ├── 01-foundations/
+│ │ ├── Prompting Essentials.md
+│ │ └── Best Practices and Templates.md
+│ ├── 02-prompting-techniques/
+│ │ ├── Chain-of-thought Prompting.md
+│ │ ├── Role Prompting.md
+│ │ ├── Step-back Prompting.md
+│ │ └── chain-of-density-prompt.txt
+│ ├── 03-reasoning-frameworks/
+│ │ ├── Program-of-thought.md
+│ │ ├── Skeleton-of-thought.md
+│ │ └── Tree-of-Thought.md
+│ ├── 04-hyperparameters/
+│ │ ├── Prompt Hyperparameters.md
+│ │ └── Hyperparameter Tuning.md
+│ ├── 05-prompt-tuning/
+│ │ └── Prompt Tuning.md
+│ └── 06-evaluation-and-testing/
+│ ├── Prompt AB Testing.md
+│ └── Prompt Evaluation.md
 │
-├── 02-prompting-techniques/
-│   ├── Chain-of-thought Prompting.md    # Step-by-step reasoning prompts
-│   ├── Role Prompting.md                # Personas, system roles, behaviour shaping
-│   ├── Step-back Prompting.md           # Abstract reasoning before answering
-│   └── chain-of-density-prompt.txt      # Iterative summarization technique
+├── 02-ai-fluency-frameworks-and-foundations/
+│ ├── 001-...md
+│ ├── 002-...md
+│ └── 003-What is Generative AI?.md
 │
-├── 03-reasoning-frameworks/
-│   ├── Program-of-thought.md            # Code-assisted reasoning
-│   ├── Skeleton-of-thought.md           # Parallel decoding for faster responses
-│   └── Tree-of-Thought.md               # Branching reasoning paths
+├── 03-building-with-the-claude-api/
+│ └── part1.md
 │
-├── 04-hyperparameters/
-│   ├── Prompt Hyperparameters.md        # Temperature, top-p, max tokens explained
-│   └── Hyperparameter Tuning.md         # When and how to tune each parameter
+├── 04-introduction-to-model-context-protocol/
+│ └── part1.md
 │
-├── 05-prompt-tuning/
-│   └── Prompt Tuning.md                 # Soft prompting vs. few-shot vs. fine-tuning
-│
-└── 06-evaluation-and-testing/
-    ├── Prompt AB Testing.md             # How to compare and iterate on prompts
-    └── Prompt Evaluation.md             # Metrics and frameworks for scoring output
+└── README.md
 ```
+
 
 ---
 
-## Key Techniques at a Glance
+## Key Techniques at a Glance (Prompt Engineering)
 
 | Technique | What it does | When to use |
 |-----------|-------------|-------------|
@@ -62,25 +72,32 @@ prompt-engineering-fundamentals/
 
 ---
 
-## Connection to Other Repos
+## What Each Section Covers
 
-This repo feeds directly into my ongoing AI Backend Engineer learning path:
+**01 — Prompt Engineering (Udemy)**
+Core prompting techniques, reasoning frameworks, hyperparameters, and evaluation — the foundation for writing prompts that hold up in production.
 
-| Repo | How prompt engineering applies |
-|------|-------------------------------|
-| [claude-api-java-backend](https://github.com/Skakarla2023/claude-api-java-backend) | System prompts + structured output in live API calls |
-| [model-context-protocol-experiments](https://github.com/Skakarla2023/model-context-protocol-experiments) | Prompt design for MCP tool descriptions and agent flows |
-| [ai-fluency-foundations](https://github.com/Skakarla2023/ai-fluency-foundations) | Understanding effective human-AI collaboration |
+**02 — AI Fluency: Frameworks & Foundations**
+Conceptual grounding on generative AI and effective human-AI collaboration — what these models actually are and how to work with them, not just prompt them.
+
+**03 — Building with the Claude API**
+Hands-on: authentication, message structure, system prompts, tool use, and structured output when calling Claude programmatically.
+
+**04 — Introduction to Model Context Protocol (MCP)**
+How MCP standardizes connecting models to tools and external context — servers, resources, and tool descriptions.
+
 
 ---
 
 ## Resources
 
 - [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Anthropic API Docs](https://docs.anthropic.com)
+- [Model Context Protocol Docs](https://modelcontextprotocol.io)
 - [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Learn Prompting (free)](https://learnprompting.org)
 
 ---
 
-*Part of my AI Backend Engineer learning journey — Summer 2026*  
+*Part of my AI Backend Engineer learning journey — Summer 2026*
 *Connect: [LinkedIn](https://linkedin.com/in/satwika-kakarla) · [GitHub](https://github.com/Skakarla2023)*
